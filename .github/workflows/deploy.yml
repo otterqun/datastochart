@@ -33,13 +33,13 @@ jobs:
         with:
           path: './dist'
 
-  deploy:
+deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: github-latest
+    runs-on: ubuntu-latest # Dibetulkan
     needs: build
-    if: github.ref == 'main'
+    if: github.ref == 'refs/heads/main' # Dibetulkan
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
