@@ -1,6 +1,6 @@
 ## 📊 Data-to-Chart
 
-A lightweight and fast web application for transforming raw data into beautiful data visualizations. Designed for both everyday users and **developers** who need to create charts quickly without dealing with complicated configurations.
+A lightweight and fast web application for transforming raw data into beautiful data visualizations. Designed for both everyday users and **developers** who need to create charts quickly without dealing with complicated configurations ..
 
 ## ✨ Key Features
 
